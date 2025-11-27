@@ -1,6 +1,6 @@
 # Weather App – COMP3123 Lab Test 2
 Student ID: 101483006  
-Course: COMP3123 – Full Stack Development I  
+Course: COMP3123
 Lab Test 2 – React Weather Application
 
 ---
@@ -80,29 +80,25 @@ https://101483006-comp3123-labtest2.vercel.app/
 File: `toronto.png`  
 ![Toronto](screenshots/toronto.png)
 
-### 2. London Weather (Search)
-File: `02_london_app.png`  
-![London](screenshots/02_london_app.png)
+### 2. Bulacan Weather (Search)
+File: `manila.png`  
+![Bulacan](screenshots/bulacan.png)
 
-### 3. Third City (New York, Tokyo, etc.)
-File: `03_newyork_app.png`  
-![New York](screenshots/03_newyork_app.png)
+### 3. Postman API Test
+File: `postman.png`  
+![Postman](screenshots/postman.png)
 
-### 4. Postman API Test
-File: `04_postman_response.png`  
-![Postman](screenshots/04_postman_response.png)
+### 4. Browser JSON Response
+File: `url.png`  
+![URL](url.png)
 
-### 5. Browser JSON Response
-File: `05_browser_api_json.png`  
-![Browser API](screenshots/05_browser_api_json.png)
+### 5. Terminal Running `npm start`
+File: `npmstart.png`  
+![NPM Start](npmstart.png)
 
-### 6. Terminal Running `npm start`
-File: `06_terminal_running.png`  
-![Terminal](screenshots/06_terminal_running.png)
-
-### 7. GitHub Repository Page
-File: `07_github_repo.png`  
-![GitHub](screenshots/07_github_repo.png)
+### 6. Vercel Hosting
+File: `vercel.png`  
+![Vercel](vercel.png)
 
 ---
 
@@ -116,11 +112,3 @@ File: `07_github_repo.png`
 - [x] Real API integration
 - [x] UI with weather icon and styling
 
----
-
-## Notes
-- The API key is now fully active and working.
-- App supports searching for any city.
-- All required rubric items are implemented.
-
----
