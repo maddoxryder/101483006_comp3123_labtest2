@@ -69,7 +69,7 @@ src/
 ## Hosting Link
 
 ```
-https://101483006-comp3123-labtest2.vercel.app
+https://101483006-comp3123-labtest2.vercel.app/
 ```
 
 ---
@@ -77,8 +77,8 @@ https://101483006-comp3123-labtest2.vercel.app
 ## Screenshots (Required for Submission)
 
 ### 1. Toronto Weather (Default)
-File: `01_toronto_app.png`  
-![Toronto](screenshots/01_toronto_app.png)
+File: `toronto.png`  
+![Toronto](screenshots/toronto.png)
 
 ### 2. London Weather (Search)
 File: `02_london_app.png`  
