@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 
 function SearchBar({ onSearch }) {
+    // storing the users input
     const [value, setValue] = useState("");
-
     return (
         <div className="search-container">
+            {/* input box */}
             <input
                 className="search-input"
                 type="text"
@@ -12,6 +13,7 @@ function SearchBar({ onSearch }) {
                 value={value}
                 onChange={(e) => setValue(e.target.value)}
             />
+            {/* search button */}
             <button
                 className="search-btn"
                 onClick={() => {
