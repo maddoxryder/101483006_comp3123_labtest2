@@ -81,7 +81,7 @@ File: `toronto.png`
 ![Toronto](screenshots/toronto.png)
 
 ### 2. Bulacan Weather (Search)
-File: `manila.png`  
+File: `bulacan.png`  
 ![Bulacan](screenshots/bulacan.png)
 
 ### 3. Postman API Test
