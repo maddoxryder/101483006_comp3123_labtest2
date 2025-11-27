@@ -1,70 +1,126 @@
-# Getting Started with Create React App
+# Weather App – COMP3123 Lab Test 2
+Student ID: 101483006  
+Course: COMP3123 – Full Stack Development I  
+Lab Test 2 – React Weather Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## Project Description
+This is a React weather application that displays real-time weather information for any city using the OpenWeatherMap API.  
+The user can:
+- Search for any city
+- View temperature, weather condition, icon, humidity, wind speed, and pressure
+- Use a clean and responsive UI
 
-In the project directory, you can run:
+This project demonstrates:
+- React components
+- Props and state
+- useEffect lifecycle
+- API integration with Axios
+- Event handling
+- UI/UX styling
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## API Used
+OpenWeatherMap – Current Weather API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+API Pattern
+```
+https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric
+```
 
-### `npm test`
+My API key is active and tested.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## How to Run the Project
+Install dependencies:
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run the application:
+```
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+App runs on:
+```
+http://localhost:3000
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Project Structure
+```
+src/
+  components/
+    WeatherCard.js
+    SearchBar.js
+  App.js
+  App.css
+  index.js
+  weather_api_output.json
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Hosting Link
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+https://101483006-comp3123-labtest2.vercel.app
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Screenshots (Required for Submission)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 1. Toronto Weather (Default)
+File: `01_toronto_app.png`  
+![Toronto](screenshots/01_toronto_app.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 2. London Weather (Search)
+File: `02_london_app.png`  
+![London](screenshots/02_london_app.png)
 
-### Code Splitting
+### 3. Third City (New York, Tokyo, etc.)
+File: `03_newyork_app.png`  
+![New York](screenshots/03_newyork_app.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 4. Postman API Test
+File: `04_postman_response.png`  
+![Postman](screenshots/04_postman_response.png)
 
-### Analyzing the Bundle Size
+### 5. Browser JSON Response
+File: `05_browser_api_json.png`  
+![Browser API](screenshots/05_browser_api_json.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 6. Terminal Running `npm start`
+File: `06_terminal_running.png`  
+![Terminal](screenshots/06_terminal_running.png)
 
-### Making a Progressive Web App
+### 7. GitHub Repository Page
+File: `07_github_repo.png`  
+![GitHub](screenshots/07_github_repo.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Submission Checklist
+- [x] ZIP file without `node_modules`
+- [x] README.md with screenshots
+- [x] Postman screenshot
+- [x] GitHub link
+- [x] Hosted link (Vercel/Render/Railway)
+- [x] Working search feature
+- [x] Real API integration
+- [x] UI with weather icon and styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Notes
+- The API key is now fully active and working.
+- App supports searching for any city.
+- All required rubric items are implemented.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
