@@ -90,15 +90,15 @@ File: `postman.png`
 
 ### 4. Browser JSON Response
 File: `url.png`  
-![URL](url.png)
+![URL](screenshots/url.png)
 
 ### 5. Terminal Running `npm start`
 File: `npmstart.png`  
-![NPM Start](npmstart.png)
+![NPM Start](screenshots/npmstart.png)
 
 ### 6. Vercel Hosting
 File: `vercel.png`  
-![Vercel](vercel.png)
+![Vercel](screenshots/vercel.png)
 
 ---
 
